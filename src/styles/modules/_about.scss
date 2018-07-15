@@ -1,0 +1,14 @@
+.about {
+  &__section {
+    background-size: cover;
+    background-position: center;
+
+    &--left {
+      background-image: url('/public/images/1.jpg');
+    }
+
+    &--right {
+      background-image: url('/public/images/2.jpg');
+    }
+  }
+}

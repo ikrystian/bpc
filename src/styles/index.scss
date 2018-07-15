@@ -1,5 +1,23 @@
-$body-color: blue;
+@import "style-globals";
+@import "modules/header";
+@import "modules/slider";
+@import "modules/content";
+@import "modules/footer";
+@import "responsive";
+@import "modules/about";
+@import "modules/open-source";
+@import "modules/testimonials";
 
-body {
-  color: $body-color;
-}  
+.ul-mh {
+  display: flex;
+}
+
+.bpc-widget-intro-01 .widget-header .widget-icon {
+  z-index: 600000000000;
+}
+
+.page-area {
+  height: 600px;
+  background: url('/public/images/home-background.jpg') center fixed;
+  background-size: cover;
+}

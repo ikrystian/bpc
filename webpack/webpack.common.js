@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const Webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const dest = Path.join(__dirname, '../dist');
+const dest = Path.join(__dirname, 'dist');
 
 module.exports = {
   entry: [
@@ -31,6 +31,7 @@ module.exports = {
       '~': Path.resolve(__dirname, '../src')
     }
   },
+
   module: {
     rules: [
       {
