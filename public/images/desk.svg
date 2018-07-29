@@ -1,159 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>BPCoders</title>
-    <style>
-
-        .loader {
-            background: #2c2d44;
-            position: fixed;
-            height: 100%;
-            width: 100%;
-            z-index: 9000;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        }
-
-        .loader-circle {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-            margin-left: -60px;
-            margin-top: -60px;
-        }
-
-        .loader-line-mask {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            width: 60px;
-            height: 120px;
-            margin-left: -60px;
-            margin-top: -60px;
-            overflow: hidden;
-            transform-origin: 60px 60px;
-            -webkit-mask-image: -webkit-linear-gradient(top, #000000, rgba(0, 0, 0, 0));
-            animation: rotate 1.2s infinite linear;
-        }
-
-        .loader-line-mask .loader-line {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
-        }
-
-        @keyframes rotate {
-            0% {
-                transform: rotate(0deg);
-            }
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-    </style>
-
-    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/public/css/superfish.css">
-    <link rel="stylesheet" href="/public/css/slick.css">
-    <link rel="stylesheet" href="/public/css/slick-theme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-	<script src="/public/js/vivus.js"></script>
-    <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-</head>
-<body>
-<!--<button id="magicButton" style="position: fixed; z-index: 100;">click here</button>-->
-<div class="loader">
-    <div class="loader-circle"></div>
-    <div class="loader-line-mask">
-        <div class="loader-line"></div>
-    </div>
-    <img src="/public/images/loader.png" alt="">
-</div>
-
-<div class="text-center"
-     style="color: #fff; background-color: #f1494c; position: fixed; width: 100%; z-index: 6000000;">
-
-    W naszą stronę uderzył meteoryt. Do naprawy został wysłany zespół specjalnie przeszkolonych surykatek. Przepraszamy
-    za utrudnienia.
-</div>
-
-<div class="main-container">
-    <header id="home">
-        <nav class="main-nav">
-            <ul class="main-menu">
-                <li class="main-menu__logo">
-                    <a href="#">
-                        <img src="/public/images/logo.png" alt="">
-                    </a>
-                </li>
-                <li class="main-menu__item main-menu__item--current">
-                    <a href="#home" class="main-menu__link">home</a>
-                </li>
-                <li class="main-menu__item">
-                    <a href="#overlap-top" class="main-menu__link">service</a>
-                </li>
-                <li class="main-menu__item">
-                    <a href="#works" class="main-menu__link">portfolio</a>
-                </li>
-                <li class="main-menu__item">
-                    <a href="#contact" class="main-menu__link">Contact</a>
-                </li>
-                <li class="main-menu__middle"></li>
-                <li class="main-menu__item">
-                    <a href="mailto:info@bpcoders.pl" class="main-menu__link no-action">info@bpcoders.pl</a>
-                </li>
-                <li class="main-menu__item">
-                    <a href="tel:+48570877638" class="main-menu__link no-action">570 877 638</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- bpc-page-header-02 -->
-    <div class="main-content">
-        <section class="page-area bpc-area bpc-area-slider bpc-area-no-space">
-            <div id="particles-js"></div>
-            <a href="#overlap-top" class="bpc-scroll style-01">
-                <p lang="en" data-lang-token="scroll">scroll</p>
-                <p class="ti-mouse-alt"></p>
-            </a>
-
-
-            <!-- widget -->
-        </section>
-        <!-- bpc-area-slider -->
-        <section class="bpc-area overlap-top" id="overlap-top">
-            <div class="container">
-                <div class="widget bpc-widget-intro-01">
-                    <header class="widget-header">
-                        <div class="widget-icon ct-icon-01 style-02">
-                            <div>
-                                <div>
-                                    <p class="fa fa-user-secret"></p>
-                                    <p lang="en" data-lang-token="service">service</p>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 class="widget-title style-01 text-center">BPCoders</h2>
-                        <p class="widget-sub-title style-01 text-center" lang="en" data-lang-token="creative-studio">
-                            Creative Studio</p>
-                        <p class="text-center">
-                            <?xml version="1.0" encoding="utf-8"?>
-                            <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                            <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-                            "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="634.016px" height="329.787px" viewBox="0 0 634.016 329.787" enable-background="new 0 0 634.016 329.787"
 	 xml:space="preserve">
 <g id="Workspace_1">
@@ -871,29 +719,29 @@
 				c0-10.201-8.299-18.5-18.5-18.5H480.196z"/>
 		</g>
 		<g>
-			<path fill="#CDD0E0" id="button" d="M483.445,290.105c-3.217,0-5.833-2.616-5.833-5.833c0-3.216,2.616-5.832,5.833-5.832
+			<path fill="#CDD0E0" d="M483.445,290.105c-3.217,0-5.833-2.616-5.833-5.833c0-3.216,2.616-5.832,5.833-5.832
 				c3.216,0,5.832,2.616,5.832,5.832C489.277,287.489,486.661,290.105,483.445,290.105z M483.445,281.44
 				c-1.563,0-2.833,1.271-2.833,2.832c0,1.563,1.271,2.833,2.833,2.833c1.562,0,2.832-1.271,2.832-2.833
 				C486.277,282.711,485.006,281.44,483.445,281.44z"/>
 		</g>
 	</g>
-	<g >
+	<g>
 		<path fill="#FFFFFF" d="M133.075,220.832c-23.458,0-42.542,19.085-42.542,42.543s19.084,42.543,42.542,42.543
 			c23.458,0,42.542-19.085,42.542-42.543S156.533,220.832,133.075,220.832z"/>
-		<path  fill="#CDD0E0"  d="M133.007,218.588c-24.792,0-44.961,20.169-44.961,44.961s20.169,44.962,44.961,44.962
+		<path fill="#CDD0E0" d="M133.007,218.588c-24.792,0-44.961,20.169-44.961,44.961s20.169,44.962,44.961,44.962
 			c24.792,0,44.962-20.17,44.962-44.962S157.8,218.588,133.007,218.588z M133.007,305.444c-23.101,0-41.895-18.794-41.895-41.896
 			s18.794-41.895,41.895-41.895s41.896,18.793,41.896,41.895S156.108,305.444,133.007,305.444z"/>
 		<path fill="#CDD0E0" d="M142.689,254.666c-13.219,0-23.974,10.756-23.974,23.975s10.755,23.975,23.974,23.975
 			c13.22,0,23.975-10.756,23.975-23.975S155.909,254.666,142.689,254.666z"/>
 		<path fill="#FFFFFF" d="M108.778,264.434c0,2.094-1.699,3.793-3.793,3.793h-7.296c-2.095,0-3.793-1.699-3.793-3.793l0,0
 			c0-2.096,1.699-3.795,3.793-3.795h7.296C107.079,260.639,108.778,262.338,108.778,264.434L108.778,264.434z"/>
-		<path  fill="#CDD0E0" d="M104.984,259.105h-7.296c-2.937,0-5.327,2.391-5.327,5.328c0,2.937,2.39,5.326,5.327,5.326h7.296
+		<path fill="#CDD0E0" d="M104.984,259.105h-7.296c-2.937,0-5.327,2.391-5.327,5.328c0,2.937,2.39,5.326,5.327,5.326h7.296
 			c2.937,0,5.327-2.39,5.327-5.326C110.311,261.496,107.921,259.105,104.984,259.105z M104.984,266.693h-7.296
 			c-1.246,0-2.26-1.014-2.26-2.26c0-1.247,1.014-2.262,2.26-2.262h7.296c1.246,0,2.26,1.015,2.26,2.262
 			C107.245,265.68,106.23,266.693,104.984,266.693z"/>
 		<path fill="#FFFFFF" d="M132.758,235.779c-15.149,0-27.475,12.325-27.475,27.475c0,15.148,12.326,27.475,27.475,27.475
 			c15.149,0,27.474-12.326,27.474-27.475C160.231,248.104,147.907,235.779,132.758,235.779z"/>
-
+		
 			<radialGradient id="SVGID_5_" cx="135.7114" cy="271.5723" r="35.9042" gradientTransform="matrix(1 0 0 1.0093 0 -2.5175)" gradientUnits="userSpaceOnUse">
 			<stop  offset="0" style="stop-color:#5E4B8B"/>
 			<stop  offset="0.6909" style="stop-color:#5E4B8B"/>
@@ -904,7 +752,7 @@
 			<stop  offset="0.9441" style="stop-color:#271F3F"/>
 			<stop  offset="0.9455" style="stop-color:#271F3E"/>
 		</radialGradient>
-		<path fill="url(#SVGID_5_)" id="coffee" d="M132.712,239.596c-13.045,0-23.658,10.613-23.658,23.658c0,13.044,10.613,23.657,23.658,23.657
+		<path fill="url(#SVGID_5_)" d="M132.712,239.596c-13.045,0-23.658,10.613-23.658,23.658c0,13.044,10.613,23.657,23.658,23.657
 			c13.044,0,23.657-10.613,23.657-23.657C156.369,250.209,145.756,239.596,132.712,239.596z"/>
 		<path fill="#CDD0E0" d="M132.712,233.951c-16.158,0-29.304,13.145-29.304,29.303c0,16.157,13.146,29.303,29.304,29.303
 			c16.158,0,29.303-13.146,29.303-29.303C162.016,247.096,148.87,233.951,132.712,233.951z M132.712,289.49
@@ -976,11 +824,11 @@
 		</g>
 	</g>
 	<g>
-
+		
 			<rect x="524.538" y="154.252" transform="matrix(0.832 -0.5548 0.5548 0.832 -25.899 328.1547)" fill="#FFFFFF" width="8.662" height="105.175"/>
 		<path fill="#5E4B8B" d="M521.261,186.991L503.59,160.49l-7.207,4.806l17.681,26.517
 			C516.374,190.26,518.808,188.63,521.261,186.991z"/>
-
+		
 			<rect x="557.339" y="249.752" transform="matrix(0.8321 -0.5546 0.5546 0.8321 -46.176 353.1794)" fill="#5E4B8B" width="5.814" height="6.211"/>
 		<path fill="#CDD0E0" d="M564.495,248.507l-40.399-60.589l0.416-0.278l-20.271-30.4l-11.107,7.406l2.053,3.078l-4.646,3.099
 			l16.594,24.885l4.646-3.098l1.641,2.461l0.415-0.279l40.385,60.566L564.495,248.507z M499.633,165.945l3.308-2.205l15.071,22.604
@@ -989,368 +837,3 @@
 	</g>
 </g>
 </svg>
-
-                        </p>
-                        <p class="short-description text-center" lang="en" data-lang-token="we-create">We create high
-                            ranking websites that bring brands to life online using the latest responsive website design
-                            techniques, clean code and cutting-edge technology.</p>
-                    </header>
-                    <div class="widget-content module-intro-01--02">
-                    <ul class="row ul-mh ct-list-02">
-
-                    <li class="col-md-3 col-sm-6 col-xs-12">
-                    <article class="entry-item ct-item-01">
-                    <div class="svg-wrap">
-                    <div id="web-design-svg"></div>
-                    </div>
-                    <div class="entry-content">
-                    <h4 class="entry-title style-01">
-                    <a href="#">web design</a>
-                    </h4>
-                    </div>
-                    </article>
-                    </li>
-
-                    </ul>
-                    </div>
-                    <!-- widget-content -->
-                </div>
-                <!-- widget -->
-            </div>
-            <!-- container -->
-        </section>
-        <!-- overlap-top -->
-        <section id="works" class="bpc-area bpc-area-0 bpc-area-no-space">
-            <div class="widget bpc-widget-filter-02">
-                <header class="widget-header meta-header style-01">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-5 col-sm-5 col-xs-5 header-text left">
-                                <p class="h-line bpc-pull-right"></p>
-                                <div class="text-right bpc-pull-right">
-                                    <h3 class="widget-title style-02" lang="en" data-lang-token="portfolio">
-                                        PORTFOLIO</h3>
-                                    <p class="widget-sub-title" lang="en" data-lang-token="latest-projects">Under
-                                        construction</p>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                            <!-- col-md-5 -->
-                            <div class="col-md-2 col-sm-2 col-xs-2 text-center header-icon">
-                                <div class="ct-icon-01 style-01">
-                                    <div>
-                                        <div>
-                                            <p class="fa fa-anchor"></p>
-                                            <p lang="en" data-lang-token="works">works</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- col-md-2 -->
-                            <div class="col-md-5 col-sm-5 col-xs-5 header-navigation right">
-                                <div class="masonry-filter">
-                                    <a href="#" data-val="*" class="active" lang="en" data-lang-token="all-works">All
-                                        Works</a>
-                                    <a href="#" data-val="1" lang="en" data-lang-token="web-design">Web design</a>
-                                    <a href="#" data-val="2" lang="en" data-lang-token="branding">Branding</a>
-                                    <a href="#" data-val="3" lang="en" data-lang-token="photography">Photography</a>
-                                    <a href="#" data-val="4" lang="en" data-lang-token="other">Other</a>
-                                </div>
-                                <!-- masonry-filter -->
-                            </div>
-                            <!-- col-md-5 -->
-                        </div>
-                        <!-- row -->
-                    </div>
-                    <!-- container-->
-                </header>
-                <!--new portfolio-->
-                <!-- widget-content -->
-            </div>
-            <!-- widget -->
-        </section>
-        <!-- bpc-area-0 -->
-        <section class="about" id="about">
-            <div class="about__section about__section--left">
-                <p class="short-text bpc-pull-right" lang="en" data-lang-token="we love">We love to make
-                    things. Awesome things.</p>
-                <p class="text-right" lang="en" data-lang-token="were-passionate-about">
-                    We’re passionate about our craft. That’s why this internship is a hands-on exploration
-                    of creativity and design.
-                    We believe in learning by doing. Our aim is to nurture and grow bright young minds from
-                    the get-go, because that’s how our industry will thrive.
-                </p>
-
-            </div>
-            <div class="about__section about__section--right">
-
-                <p lang="en" data-lang-token="why-us"><i class="fa fa-stumbleupon"></i> why us</p>
-                <p class="description" lang="en" data-lang-token="we-are-a-fill-service">WE are a
-                    full-service digital agency. With a focus on user experience and strategy, we design and
-                    develop web and mobile experiences for companies at every stage. From early-stage
-                    companies looking to build their product’s first iteration, to publicly-traded companies
-                    looking for a refresh, we believe great design can make a good idea even better.</p>
-
-            </div>
-        </section>
-        <!-- bpc-area-14 -->
-        <section class="bpc-area bpc-area-15 ">
-            <div class="container">
-                <div class="bpc-widget-intro-07 open-source">
-                    <div class="widget-icon">
-                        <img src="/public/images/wwp.png" alt="">
-                    </div>
-                    <div class="widget-content">
-                        <article class="entry-item ct-item-15">
-                            <div class="entry-thumb">
-                                <a href="#">
-                                    <img src="/public/images/wwp-open-source.png" alt="">
-                                </a>
-                            </div>
-                            <div class="entry-content">
-                                <header class="entry-header">
-                                    <h4 class="entry-title style-10">
-                                        <a href="#" lang="en" data-lang-token="why-we-love-open">Why We Love Open Source
-                                            Software</a>
-                                    </h4>
-                                    <p class="entry-sub-title" lang="en" data-lang-token="it-means-you-can">
-                                        It means you can use our software for free!
-                                    </p>
-                                </header>
-                                <p lang="en" data-lang-token="as-a-we-development-agency">As a web development agency,
-                                    it’s our job to deliver clients websites that are good-looking, but also manageable.
-                                    After all, how effective can a website be if it doesn’t function the way it’s
-                                    intended to?
-                                </p>
-                                <p lang="en" data-lang-token="today-we-are-better">Today we are better than BPCoders was
-                                    yesterday!</p>
-                                <a href="#" class="more-link style-01" lang="en" data-lang-token="comming-soon">Coming
-                                    soon!</a>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- widget-content -->
-                </div>
-                <!-- widget -->
-                <div class="widget bpc-widget-table-02">
-                    <div class="widget-content">
-                        <ul class="row ct-row-01 ul-mh">
-                            <li class="col-md-4 col-sm-6 col-xs-12">
-                                <article class="entry-item ct-item-16">
-                                    <div class="entry-thumb">
-                                        <div class="oos-icon">
-                                            <i class="fa fa-cubes" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="entry-content">
-                                        <h4 class="entry-title style-11" lang="en"
-                                            data-lang-token="user-experience-design">
-                                            user experience design.
-                                        </h4>
-                                        <p lang="en" data-lang-token="great-design-starts">Great design starts with
-                                            putting people first. Work with us and you’ll benefit from a collaborative
-                                            user experience design approach that promises improved usability,
-                                            accessibility and efficiency.
-                                        </p>
-                                    </div>
-                                </article>
-                            </li>
-                            <!-- col-md-4 -->
-                            <li class="col-md-4 col-sm-6 col-xs-12">
-                                <article class="entry-item ct-item-16">
-                                    <div class="entry-thumb">
-                                        <div class="oos-icon">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="entry-content">
-                                        <h4 class="entry-title style-11" lang="en"
-                                            data-lang-token="pixel-perfect-development">
-                                            pixel-perfect development.
-                                        </h4>
-                                        <p lang="en" data-lang-token="were-not-joking-when">We’re not joking when we say
-                                            we’ve considered every detail. That’s right, down to each individual pixel.
-                                            When you see a design, this is exactly how your website will look, complete
-                                            with animation and effects.
-                                        </p>
-                                    </div>
-                                </article>
-                            </li>
-                            <!-- col-md-4 -->
-                            <li class="col-md-4 col-sm-6 col-xs-12">
-                                <article class="entry-item ct-item-16">
-                                    <div class="entry-thumb">
-                                        <div class="oos-icon">
-                                            <i class="fa fa-life-ring" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="entry-content">
-                                        <h4 class="entry-title style-11" lang="en" data-lang-token="complete-support">
-                                            complete support.
-                                        </h4>
-                                        <p lang="en" data-lang-token="once-your-website-is-launched">Once your website
-                                            is launched it’s not goodbye. We’re here to support any changes, assess
-                                            performance and discuss future improvements, and we're always at the end of
-                                            the phone if you need us.
-                                        </p>
-                                    </div>
-                                </article>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- widget-content -->
-                </div>
-                <!-- widget -->
-            </div>
-            <!-- container -->
-        </section>
-        <section class="bpc-area bpc-area-17 white-text-style testimonials">
-            <div class="container">
-                <div class="widget bpc-widget-slick-01" id="testimonial">
-                    <header class="widget-header text-center">
-                        <img src="/public/images/clients/1.png" alt="">
-                        <h3 class="widget-title style-02" lang="en" data-lang-token="what-our-clients-say">WHAT OUR
-                            CLIENTS SAY</h3>
-                        <p class="widget-sub-title style-02" lang="en" data-lang-token="clients-testimonial">Clients
-                            Testimonial</p>
-                    </header>
-                    <div class="widget-content module-slick-01--01">
-                        <div class="slick-01 slick-content">
-                            <div class="item">
-                                <div class="item-text" lang="en"
-                                     data-lang-token="the-communication-was-strict-and-perfect">
-                                    The communication was strict and perfect, the cooperation was flawless and the
-                                    project was highly professional.
-                                </div>
-                                <div class="item-rating">
-                                    <p>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                    </p>
-                                    <p>Jakub Bocian<br>STORK Industries</p>
-                                </div>
-                            </div>
-                            <!-- item -->
-                            <div class="item">
-                                <div class="item-text" lang="en" data-lang-token="this-company-have-best-employers">
-                                    This company have best employers, they always pull theirs weight. It is
-                                    characteristic of them to do everything quickly and on time. My website looks better
-                                    than I expected. Everything work perfectly. The employers are imaginative,
-                                    conscientious, responsible, reliable and well-organised. This firm come up to my
-                                    expectations. I know, that I can always rely on this company. Without doubt I will
-                                    recommend.
-                                </div>
-                                <div class="item-rating">
-                                    <p>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                    </p>
-                                    <p>Viktoria Jonca</p>
-                                </div>
-                            </div>
-                            <!-- item -->
-                            <!-- item -->
-                        </div>
-                        <!-- slick-01.slick-content -->
-                        <div class="slick-01 slick-thumb">
-                            <div class="thumb">
-                                <img src="/public/images/clients/j_bocian.jpg" alt="">
-                            </div>
-                            <div class="thumb">
-                                <img src="/public/images/clients/v_jonca.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- widget-content -->
-                </div>
-                <!-- widget -->
-            </div>
-            <!-- container -->
-        </section>
-
-        <section class="bpc-area bpc-area-12" id="contact">
-            <div class="container">
-                <div class="widget bpc-widget-form-01">
-                    <header class="widget-header text-center">
-                        <div class="contact-icon" id="form">
-                            <i id="fa" class="fa fa-comments" aria-hidden="true"></i>
-                        </div>
-                        <h3 class="widget-title style-02" lang="en" data-lang-token="how-we-can-help">How can we
-                            help?</h3>
-                        <p class="widget-sub-title style-02" lang="en"
-                           data-lang-token="no-matter-the-size-of-your-project">No matter the size of your project, we'd
-                            love to hear from you! Get in touch via our website or call us on +48 575 702 457.</p>
-                    </header>
-                    <div class="widget-content">
-                        <form class="bpc-form bpc-form-01 " action="https://formspree.io/fasolqa@gmail.com"
-                              method="POST">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <p class="form-group">
-                                        <input required="required" class="form-control" type="text" name="name"
-                                               placeholder="Your Name">
-                                    </p>
-                                </div>
-                                <!-- col-md-4 -->
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <p class="form-group">
-                                        <input required="required" class="form-control" type="text" name="email"
-                                               placeholder="Your Email">
-                                    </p>
-                                </div>
-                                <!-- col-md-4 -->
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <p class="form-group">
-                                        <input required="required" class="form-control" type="text" name="phone"
-                                               placeholder="Phone Number">
-                                    </p>
-                                </div>
-                                <!-- col-md-4 -->
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <p class="form-group">
-                                        <textarea required="required" class="form-control" name="message"
-                                                  placeholder="Message" rows="16"></textarea>
-                                    </p>
-                                </div>
-                                <!-- col-md-4 -->
-                                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-                                    <p class="form-button">
-                                        <input class="ct-btn-01" type="submit" value="SEND YOUR MESSAGE">
-                                    </p>
-                                </div>
-                                <!-- col-md-4 -->
-                            </div>
-                            <!-- row -->
-                        </form>
-                    </div>
-                    <!-- widget-content -->
-                </div>
-                <!-- widget -->
-            </div>
-            <!-- container -->
-        </section>
-        <!-- bpc-area-12 -->
-    </div>
-    <!-- main content -->
-
-    <footer class="footer">
-        <p>Made with <span class="fa fa-heart text-red"></span> by BPCoders Team</p>
-    </footer>
-
-
-</div>
-<script src="/public/js/imagesloaded.pkgd.min.js"></script>
-<script src="/public/js/slick.min.js"></script>
-<script src="/public/js/vivus.js"></script>
-<script>
-    let icon1 = new Vivus('web-design-svg', {type: 'delayed', duration: 100, file: '/public/images/hiring.svg'});
-
-</script>
-</body>
-</html>
