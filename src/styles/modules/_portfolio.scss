@@ -20,7 +20,6 @@
 		margin-bottom: 20px;
 	}
 	.portfolio-loading {
-		background: url("/public/images/portfolio-loader.gif") no-repeat center center;
 		height: 60px;
 		width: 60px;
 		position: fixed;
@@ -46,7 +45,7 @@
 		right: 75px;
 	}
 	#portfolio-next {
-		right: 0px;
+		right: 0;
 	}
 
 	#portfolio-close i,
@@ -180,7 +179,7 @@
 	width: 100%;
 
 	a {
-		background-color: #f1494c;
+		background-color: #bc79b3;
 		display: inline-block;
 		width: 80px;
 		position: absolute;
@@ -189,7 +188,7 @@
 		top: calc(50% - 25px);
 		height: 50px;
 		line-height: 50px;
-		border: 2px solid #f1494c;
+		border: 2px solid #bc79b3;
 		&:hover {
 			background-color: #fff;
 		}

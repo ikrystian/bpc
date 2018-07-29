@@ -12,6 +12,15 @@
   display: flex;
 }
 
+.widget-header svg {
+  max-width: 100%;
+}
+
+.open-source {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 .bpc-widget-intro-01 .widget-header .widget-icon {
   z-index: 600000000000;
 }
