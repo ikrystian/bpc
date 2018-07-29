@@ -12,6 +12,31 @@
   display: flex;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  &__section {
+    padding: 5% 10%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    &--left {
+      text-align: right;
+    }
+    &--right {
+      text-align: left;
+      color: #fff;
+    }
+  }
+
+
+}
+
 .widget-header svg {
   max-width: 100%;
 }
