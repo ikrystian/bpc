@@ -4,9 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/styles/modules/_header.scss" line="618" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73e5da4d-3e47-4d64-b60c-0b273eeca62a" name="Default" comment="add images">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="73e5da4d-3e47-4d64-b60c-0b273eeca62a" name="Default" comment="Remove package lock">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,31 +17,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/index.scss">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            <state relative-caret-position="330">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24530">
-              <caret line="1115" column="220" selection-start-line="1115" selection-start-column="220" selection-end-line="1115" selection-end-column="220" />
+            <state relative-caret-position="6153">
+              <caret line="1049" column="65" selection-start-line="1049" selection-start-column="65" selection-end-line="1049" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -58,6 +53,15 @@
                 <element signature="n#style#0;n#stop#6;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#stop#7;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -116,7 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.bpc-page-header</find>
       <find>10px</find>
       <find>.main-nav</find>
       <find>clients</find>
@@ -146,6 +149,7 @@
       <find>0</find>
       <find>.ct-btn-01{</find>
       <find>Awesome th</find>
+      <find>cryptiles</find>
     </findStrings>
     <replaceStrings>
       <replace>/public/works/images/</replace>
@@ -168,7 +172,6 @@
         <option value="$PROJECT_DIR$/public/js/vivus.js" />
         <option value="$PROJECT_DIR$/src/styles/modules/_bottomSidebar-footer.scss" />
         <option value="$PROJECT_DIR$/src/styles/modules/_footer.scss" />
-        <option value="$PROJECT_DIR$/webpack/dist/index.html" />
         <option value="$PROJECT_DIR$/src/styles/modules/_about.scss" />
         <option value="$PROJECT_DIR$/src/styles/modules/_open-source.scss" />
         <option value="$PROJECT_DIR$/src/styles/modules/_testimonials.scss" />
@@ -186,9 +189,10 @@
         <option value="$PROJECT_DIR$/public/images/svg/4.svg" />
         <option value="$PROJECT_DIR$/src/styles/_style-globals.scss" />
         <option value="$PROJECT_DIR$/src/styles/modules/_portfolio.scss" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/webpack/dist/index.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -215,13 +219,18 @@
             <path>
               <item name="bpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="bpc" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="bpc" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="eslint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,10 +243,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532901159385" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/babel-plugin-syntax-flow" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="D:/projects/bpc-beta/node_modules/eslint" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -281,7 +293,8 @@
       <workItem from="1531670864471" duration="10059000" />
       <workItem from="1531769672881" duration="25000" />
       <workItem from="1532888329990" duration="2879000" />
-      <workItem from="1557409644141" duration="41000" />
+      <workItem from="1557409644141" duration="1564000" />
+      <workItem from="1557411529164" duration="413000" />
     </task>
     <task id="LOCAL-00001" summary="some changes">
       <created>1531677532038</created>
@@ -311,11 +324,25 @@
       <option name="project" value="LOCAL" />
       <updated>1532900842470</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add images">
+      <created>1557409745816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557409745816</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Remove package lock">
+      <created>1557410707699</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557410707699</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34639000" />
+    <option name="totallyTimeSpent" value="36575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -342,7 +369,6 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32897604" />
       <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32897604" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -352,6 +378,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +387,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some changes" />
     <MESSAGE value="add images" />
-    <option name="LAST_COMMIT_MESSAGE" value="add images" />
+    <MESSAGE value="Remove package lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove package lock" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/styles/style.scss" />
@@ -387,7 +415,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/vivus.min.js" />
     <entry file="file://$PROJECT_DIR$/public/js/superfish.min.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/dist/index.html" />
     <entry file="file://$PROJECT_DIR$/public/js/stats.min.js" />
     <entry file="file://$PROJECT_DIR$/src/styles/modules/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -517,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css_" />
     <entry file="file://$PROJECT_DIR$/src/styles/index.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -539,26 +559,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/webpack/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24530">
-          <caret line="1115" column="220" selection-start-line="1115" selection-start-column="220" selection-end-line="1115" selection-end-column="220" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#2;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#2;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#g#2;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#3;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#4;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#5;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#6;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#7;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -598,10 +610,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="220">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6153">
+          <caret line="1049" column="65" selection-start-line="1049" selection-start-column="65" selection-end-line="1049" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#2;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#2;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#g#2;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#3;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#4;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#5;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#6;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#7;n#radialGradient#0;n#g#3;n#g#0;n#svg#0;n#p#1;n#header#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
