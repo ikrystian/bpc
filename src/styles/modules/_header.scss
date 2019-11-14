@@ -7,9 +7,11 @@
   z-index: 6000001;
   margin-top: 24px;
   transition: all 0.2s ease-in-out;
+  
   &--scroll {
     background: linear-gradient(to right, #7379ba, #bc79b3);
     border-bottom: 2px solid #fff;
+    margin-top: 0;
     .main-menu__logo img {
       width: 50px;
     }
@@ -18,14 +20,17 @@
 
 .main-menu {
   position: static;
-  display: flex;
   align-items: center;
+  display: flex;
   width: 1170px;
   max-width: 100%;
   margin-bottom: 0;
   list-style: none;
-  padding: 0;
+  padding: 0 1rem;
 
+  @media screen and (min-width: 768px ) {
+
+  }
   &__logo {
     list-style: none;
     padding-bottom: 0;

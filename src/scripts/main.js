@@ -1,8 +1,4 @@
-
-$('#container').imagesLoaded()
-    .always(() => {
-
-
+$(document).ready(function() {
         $('.loader').fadeOut('1500', function () {
             $(this).remove();
             $('.main-menu__item').each(function (i) {

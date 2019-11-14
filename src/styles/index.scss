@@ -12,6 +12,13 @@
   display: flex;
 }
 
+.offer-icons, .what-we-can-do {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
 .about {
   display: flex;
   flex-direction: column;
