@@ -65,7 +65,7 @@
   "dependencies": {
     "babel-polyfill": "^6.9.0",
     "fs": "0.0.1-security",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "particles.js": "^2.0.0",
     "slick-carousel": "^1.8.1",
     "vivus": "^0.4.4"
